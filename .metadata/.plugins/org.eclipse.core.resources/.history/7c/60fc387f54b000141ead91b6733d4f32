@@ -1,9 +1,0 @@
-<?php
-// application – application specific code
-// config – database/server configuration
-// db – database backups
-// library – framework code
-// public – application specific js/css/images
-// scripts – command-line utilities
-// tmp – temporary data
-?>
