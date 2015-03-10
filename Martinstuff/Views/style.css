@@ -1,0 +1,169 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #6060EB;
+	height: 100%;
+	position:relative;
+	font-family: Verdana;
+}
+
+.header {
+	position: relative;
+	background-color: #BDBEF2;
+	height: 150px;
+	width: 99.6%;
+	margin-bottom: 20px;
+	border: 2px solid black;
+}
+
+.header img {
+	height: 150px;
+	width: 150px;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    float: center;
+}
+
+.header ul li, .footer ul li {
+	display: inline;
+	padding-right: 10px;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight:bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#mainnavbar {
+	position: relative;
+	font-weight: bold;
+	font-size: 0.9em;
+	top:10px;
+	bottom: 10px;
+	margin-left:120px;
+	margin-top:-60px;
+}
+
+#mainnavbar li {
+	border: 2px black solid;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#smallnavbar {
+	position: relative;
+	float: right;
+	padding-right: 15px;
+}
+
+
+.content {
+	border: 2px solid black;
+	position: relative;
+	width: 99.6%;
+	height: 100%;
+	margin-bottom: 100px;
+	background-color: #BDBEF2;
+	float: left;
+	margin-left: auto; margin-right: auto;
+}
+
+.banner {
+	border: 2px solid black;
+	position: relative;
+	padding: 5px;
+	width: 15%;
+	height: 100%;
+	background-color: #BDBEF2;
+	float: right
+}
+
+#info {
+	border: 2px solid black;
+	width: 40%;
+	height: 100%;
+	position: relative;
+	margin-right: 50px;
+	float: right;
+}
+
+#info li:first-child {
+	font-weight: bold;
+}
+
+#product img{
+	border: 2px solid black;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	width: 40%;
+	height: 40%;
+}
+
+#buybutton {
+	border: 2px solid #000000;
+	float: right;
+	position: relative;
+	margin: 15px;
+	border-radius: 5px;
+	background-color: #cc0323;
+	height: 30px;
+	width: 150px;
+}
+
+#buybutton p {
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+}
+
+#blog input, #blog textarea{
+	margin: 15px;
+}
+
+h3, h2 {
+	padding-left: 10px;
+}
+
+.banner p {
+	position: relative;
+}
+
+#homeContent {
+	width: 82%;
+}
+
+#categorie {
+	display:block;
+	position:relative;
+	height: 100%;
+	min-height:500px;
+}
+
+
+#categorie > div {
+	display:inline-block; 
+	position:relative;
+	float:left;
+}
+
+
+#categorie > div img {
+	width:200px;
+	margin:15px;
+	border: 1px solid black;
+}
+
